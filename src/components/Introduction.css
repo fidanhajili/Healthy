@@ -1,0 +1,70 @@
+h1 {
+    font-size: 38px;
+    font-weight: 100;
+    text-transform: capitalize;
+font-style: inherit;
+}
+h1 span {
+    font-weight: 700;
+}
+h6 {
+    color: #fff;
+    opacity: .7;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+.btndiv {
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 220px;
+    height: 72px;
+    background-color: var(--greencolor);
+    color: #000;
+font-weight: bold;
+border: none;
+border-radius: 100px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact .contactcard {
+    width: 245px;
+    height: 95px;
+    background: transparent;
+    border: #fff;
+}
+.contact h6 {
+    color: #fff;
+    opacity: .9;
+}
+.contact .cardicon {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.contact .contactcard small {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    opacity: .5;
+}
+@media(min-width:768px) {
+h6 {
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+}
+}
+@media(min-width:992px) {
+    h6 {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 65px;
+    }
+}
