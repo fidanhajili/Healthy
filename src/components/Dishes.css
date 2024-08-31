@@ -1,0 +1,122 @@
+.dishes {
+    background-color:#0a090a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.dishes h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #D9D9D9;
+    opacity: .3;
+    letter-spacing: 15px;
+    transform: scaleY(1);
+    position: absolute;
+    z-index: 1;
+}
+.dishes h6 {
+    background-color: transparent;
+    font-size: 26px;
+font-weight: 100;
+    color: #fff;
+letter-spacing: 13px;
+position: absolute;
+z-index: 2;
+margin-left: -10px;
+}
+.dishesbtn {
+    background-color: #252525;
+    color: #fff;
+    border: 2px solid #303030;
+    width: 140px;
+    height: 60px;
+    font-size: 10px;
+}
+.dishescards .card {
+    background-color: #252525;
+    color: #fff;
+}
+.dishescards .card h1 {
+   font-size: 32px;
+}
+.dishescards .card:hover {
+ background-color: #34C759;
+}
+.dishesbtn:hover {
+    background-color: #34C759;
+    color: #252525;
+}
+.stars img {
+    transition: filter 0.3s ease;
+}
+.stars img:hover {
+    filter: sepia(100) saturate(40) hue-rotate(90deg);
+}
+.stars h6 {
+    color: #fff;
+}
+@media(min-width:992px) {
+    .dishes h1 {
+        font-size: 36px;
+    }
+    .dishes h6 {
+        font-size: 100px;
+    }
+}
+@media(max-width:576px) {
+    .dishescards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dishescards .card {
+        padding: 0;
+    }
+    .dishescards .card h1 {
+       font-size: 28px; 
+    }
+    .dishescards .card small {
+font-size: 20px;
+    }
+    .dishescards .card p {
+        font-size: 20px;
+    }
+    .dishescards .dishesbtn {
+width: 140px;
+height: 55px;
+font-size: 15px;
+    }
+}
+@media(max-width:776px) {
+    .dishescards .card {
+    width: 100%;
+    }
+    .dishes {
+        overflow-x: hidden;
+    }
+    .dishescards .container .row {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .dishescards .card h1 {
+        font-size: 40px;
+        padding: 20px 0; 
+     }
+     .dishescards .card small {
+ font-size: 30px;
+     }
+     .dishescards .card p {
+         font-size: 30px;
+         padding: 20px 0 10px;
+     }
+     .dishescards .dishesbtn {
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+            }
+            .dishescards .stars img {
+                width: 200px;
+            }
+}

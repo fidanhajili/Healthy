@@ -1,0 +1,89 @@
+.work {
+background-color:#0a090a;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.work h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #D9D9D9;
+    opacity: .3;
+    letter-spacing: 15px;
+    transform: scaleY(1);
+    position: absolute;
+    z-index: 1;
+}
+.work h6 {
+    background-color: transparent;
+    font-size: 36px;
+font-weight: 100;
+    color: #fff;
+letter-spacing: 13px;
+position: absolute;
+z-index: 2;
+margin-left: -10px;
+}
+.cards .card {
+    background-color: #252525;
+    border: transparent;
+    border-radius: 7px;
+    box-shadow: 4px 4px 8px rgba(147, 255, 97, 0.5);
+}
+.cards .card h2 {
+    background-color: transparent;
+    color: #fff;
+    opacity: .8;
+    margin: -15px 0 30px;
+}
+.cards .card small {
+    background-color: transparent;
+    color: #fff;
+    opacity: .5;
+}
+.row {
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.cards .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(238, 232, 232, 0.5);
+    background-color: #34c759; 
+}
+@media(max-width:576px) {
+    .work {
+        margin-top: -120px;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .cards .container .row .card {
+        padding: 80px 20px !important;
+    }
+}
+@media(max-width:778px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .cards .container .row {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    } 
+.cards .card {
+    width: 45vw;
+    height: 28vh;
+    }
+.cards .card h2 {
+font-size: 40px;    
+text-wrap: nowrap;
+}
+.cards .card small {
+font-size: 22px;
+}
+}
+}

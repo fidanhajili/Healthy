@@ -10,5 +10,9 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/header/background.webp');
     background-size: cover;
     background-position: center center;
-    height: 150vh;
+    height: 120vh;
+}
+body {
+    background-color: #0a090a;
+   
 }

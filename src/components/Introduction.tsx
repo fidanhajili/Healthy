@@ -13,6 +13,7 @@ import { FaPhone } from "react-icons/fa6";
 const Introduction:React.FC = () => {
   return (
   <>
+<div className="intro">
 <h1 className='text-white text-center pt-5'>Your <span>favourite food</span> <br />
 delivered <span>hot & fresh</span></h1>
 <h6>
@@ -20,6 +21,7 @@ HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping <br /> & mar
 </h6>
 <div className="btndiv py-5">
 <button>Order Now</button>
+</div>
 </div>
 <div className="contact">
 <div className="container">
